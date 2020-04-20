@@ -1,7 +1,7 @@
 import { Model, Document } from 'mongoose';
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
-import { Repository } from '../../common/interfaces/repository';
+import { Repository } from '../common/interfaces/repository';
 import { CustomerDto } from './dto/customer.dto';
 import { Customer } from './interfaces/customer.interface';
 

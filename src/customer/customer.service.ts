@@ -1,5 +1,5 @@
 import { Injectable } from '@nestjs/common';
-import { Service } from '../../common/interfaces/service';
+import { Service } from '../common/interfaces/service';
 import { CustomerDto } from './dto/customer.dto';
 import { Customer } from './interfaces/customer.interface';
 import { CustomerRepository } from './customer.repository';

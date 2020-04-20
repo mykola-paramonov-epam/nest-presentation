@@ -3,7 +3,7 @@ import { Module, ValidationPipe } from '@nestjs/common';
 import { ConfigModule } from 'nestjs-config';
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { CustomerModule } from './modules/customer/customer.module';
+import { CustomerModule } from './customer/customer.module';
 import { CoreModule } from './core/core.module';
 import { APP_PIPE, APP_FILTER } from '@nestjs/core';
 import { AllExceptionsFilter } from './common/exception-filters/all.filter';
